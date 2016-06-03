@@ -1,0 +1,24 @@
+This software simulates an array-based double ended queue.
+
+----Public Methods----
+push_front(string item) 	// Adds element to the front of the queue
+push_back(string item) 	// Adds a string element to the back of the queue
+pop_back()		// Removes and returns the element at the back of the queue
+pop_front()		// Removes and returns the element at the front of the queue
+size()			// Returns the number of elements in the queue currently
+toStr()			// Returns a string containing the elements of the queue, from the front, one per line
+empty()			// Returns true if queue is empty, false otherwise
+
+Deque()			// Default Constructor, initializes default values to variables
+~Deque()			// Deletes all elements in queue
+
+-----Dynamic Array Simulation-----
+Should the array become less than 1/4 full, the array will shrink to 1/2 size. 
+Should elements be added to the array at maximum capacity, the array will double in size.
+These are handled by private methods.
+
+
+---Test Cases----
+Used TA given test cases. Produced results with 100% accuracy. 
+
+

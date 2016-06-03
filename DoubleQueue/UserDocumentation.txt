@@ -1,0 +1,14 @@
+Hi!
+
+///-----Welcome to a String Double Queue Program -----///
+To use this program, first it must be compiled. This will create the .exe file to run the program.
+Simply type make in a Linux command line to create the executable. 
+
+Once the program has opened, refer to the commands below.
+
+0: after 'enter' key is pressed, adds next input as a string to front of queue
+1: after 'enter' key is pressed, adds next input as a string to back of queue
+2: after 'enter' key is pressed, removes element from front of queue
+3: after 'enter' key is pressed, removes element from back of queue
+4: after 'enter' key is pressed, prints all elements, one to a line
+5: after 'enter' key is pressed, exits the program
